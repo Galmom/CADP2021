@@ -6,7 +6,7 @@ procedure negativo();
 	numero_max:=-1;
 	 writeln('Ingrese un numero entero');
 	 readln(numero);
-	 while (numero > 0) do begin
+	 while (numero > 0) do begin //no negativo
 	 if (numero mod 2 = 0) then begin
 	 	if (numero > numero_max) then
 	 		numero_max:=numero;
